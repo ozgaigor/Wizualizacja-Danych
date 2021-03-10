@@ -1,5 +1,5 @@
 count=0
-tekst = input("Twoj tekst: ")
+tekst = input("Twoj tekst to: ")
 print("{tekst}".format(tekst=tekst))
 for i in tekst:
     if(i.isspace()):
