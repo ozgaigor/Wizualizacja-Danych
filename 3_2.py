@@ -1,11 +1,9 @@
-M = []
-C = []
 import random
-a=0
-for x in range (0,4,1):
-    M = random.sample(range(0, 31), 4)
-    print(M)
-    C = M[a]
-    a+=1
-    print(C)
-    
+
+macierz = [[random.randint(1,50) for x in range(4)] for n in range(4)]
+# print(macierz)
+for wiersz in macierz:
+    print(wiersz)
+
+przekatna = [macierz[x][x] for x in range(4)]
+print(przekatna)
