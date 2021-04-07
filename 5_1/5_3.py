@@ -60,48 +60,30 @@ class KwadratowaLiteraL(Kwadrat):
 #------------------------------------------------------------------
 kwadrat1 = Kwadrat(5)
 kwadrat2 = Kwadrat(8)
-kwadrat3 = Kwadrat(2)
 #------------------------------------------------------------------
 print('')
 #------------------------------------------------------------------
 print('Wymiar kwadratu pierwszego: '+str(kwadrat1.x))
 print('Wymiar kwadratu drugiego: '+str(kwadrat2.x))
-print('Wymiar kwadratu trzeciego: '+str(kwadrat3.x))
 #------------------------------------------------------------------
 print('__ge__:')
 print('Kwadrat1 >= Kwadrat2 : ', kwadrat1 >= kwadrat2)
 print('Kwadrat2 >= Kwadrat1 : ', kwadrat2 >= kwadrat1)
-print('Kwadrat1 >= Kwadrat3 : ', kwadrat1 >= kwadrat3)
-print('Kwadrat3 >= Kwadrat1 : ', kwadrat3 >= kwadrat1)
-print('Kwadrat2 >= Kwadrat3 : ', kwadrat2 >= kwadrat3)
-print('Kwadrat3 >= Kwadrat2 : ', kwadrat3 >= kwadrat2)
 #------------------------------------------------------------------
 print('')
 #------------------------------------------------------------------
 print('__gt__:')
 print('Kwadrat1 > Kwadrat2 : ', kwadrat1 > kwadrat2)
 print('Kwadrat2 > Kwadrat1 : ', kwadrat2 > kwadrat1)
-print('Kwadrat1 > Kwadrat3 : ', kwadrat1 > kwadrat3)
-print('Kwadrat3 > Kwadrat1 : ', kwadrat3 > kwadrat1)
-print('Kwadrat2 > Kwadrat3 : ', kwadrat2 > kwadrat3)
-print('Kwadrat3 > Kwadrat2 : ', kwadrat3 > kwadrat2)
 #------------------------------------------------------------------
 print('')
 #------------------------------------------------------------------
 print('__le__:')
 print('Kwadrat1 <= Kwadrat2 : ', kwadrat1 <= kwadrat2)
 print('Kwadrat2 <= Kwadrat1 : ', kwadrat2 <= kwadrat1)
-print('Kwadrat1 <= Kwadrat3 : ', kwadrat1 <= kwadrat3)
-print('Kwadrat3 <= Kwadrat1 : ', kwadrat3 <= kwadrat1)
-print('Kwadrat2 <= Kwadrat3 : ', kwadrat2 <= kwadrat3)
-print('Kwadrat3 <= Kwadrat2 : ', kwadrat3 <= kwadrat2)
 #------------------------------------------------------------------
 print('')
 #------------------------------------------------------------------
 print('__lt__:')
 print('Kwadrat1 <= Kwadrat2 : ', kwadrat1 < kwadrat2)
 print('Kwadrat2 <= Kwadrat1 : ', kwadrat2 < kwadrat1)
-print('Kwadrat1 <= Kwadrat3 : ', kwadrat1 < kwadrat3)
-print('Kwadrat3 <= Kwadrat1 : ', kwadrat3 < kwadrat1)
-print('Kwadrat2 <= Kwadrat3 : ', kwadrat2 < kwadrat3)
-print('Kwadrat3 <= Kwadrat2 : ', kwadrat3 < kwadrat2)
