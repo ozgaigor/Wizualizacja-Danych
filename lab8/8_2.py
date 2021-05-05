@@ -2,7 +2,7 @@ import pandas as pd
 import xlrd
 import openpyxl
 
-df = pd.read_excel (r'C:\Programowanie Python\lab8\imiona.xlsx')
+df = pd.read_excel ('lab8\imiona.xlsx')
 
 #1
 print('---------1----------')
