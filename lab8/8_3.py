@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r'C:\Programowanie Python\lab8\zamowienia.csv', header=0, delimiter=";")
+df = pd.read_csv("lab8\zamowienia.csv", header=0, delimiter=";")r=";")
 
 print("-----1-----")
 print(df.Sprzedawca.unique())
